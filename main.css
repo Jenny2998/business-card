@@ -1,0 +1,94 @@
+*{
+    /* border: 3px solid blue; */
+}
+
+.front-card{
+    width:350px;
+    height: 612px;
+    margin: 0 auto;
+background-color: #EDEAE8;   margin-bottom: 70px;
+background-image:url("graphics-card.svg"); 
+background-repeat:no-repeat;
+box-shadow: 15px 15px 10px -1px #898997;
+padding-bottom: 50px;
+background-position-x: 150px;
+}
+h1{
+    color: #AA8679;
+    margin: 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    position: relative; left: 1px; top: 230px;
+    font-size: 15pt;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    color: #C29A8F;
+    position: relative; left: 30px; top: 205px;
+    font-size: 13pt;
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+
+}
+h5{
+    color: #AA8679;
+    position: relative; left: 30px; top: 220px;
+    margin-top:30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+h6{
+    color: #AA8679;
+    position: relative; left: 30px; top: 205px;
+    margin-top:30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+}
+.back-card{
+    width:350px;
+    height: 612px;
+    margin: 0 auto;
+    background-color:#AA8679;
+    background-image: url("logo.svg");
+    margin-top:100px;
+    background-repeat: no-repeat;
+    background-position-y: 160px;
+    box-shadow: 15px 15px 10px -1px #898997;
+    
+}
+
+.icon-container{
+    display:grid;
+    grid-template-columns: 60px 60px;
+    grid-template-rows:40px;
+    grid-template-areas:
+    "a b";
+    
+    width:150px;
+    grid-gap:5px;
+    margin-top: 300px;
+    margin-left:15px;
+    
+    /* border: 8px solid rgb(68, 68, 102); */
+  }
+
+  svg:hover{
+      fill:#E2B48F
+  }
+  svg{
+      fill:#AA8679;
+      position:relative;
+      top:-75px
+      /* left:30px; top: 60px; */
+
+  }
+  /* #Camada_1{
+      margin-top: 200px;
+  }
+
+/* moving the mail icon down */
+  #Capa_1{
+    margin-top:9px;
+    transform:scale(.85);
+}
